@@ -1,7 +1,8 @@
 
-# Bike Sharing - Proyek Analisis Data Dicoding\
+# Bike Sharing - Proyek Analisis Data Dicoding
 
 ## Getting Started
+Access the streamlit dashboard [here](https://bike-sharing-rental.streamlit.app/).
 
 ### `dashboard/dashboard.py`
 1. Clone this repository.
@@ -9,3 +10,4 @@
 3. Run `streamlit run dashboard.py`
 
 ## Screenshots
+![alt text](https://github.com/dixonfrederick/bike-sharing/blob/master/screenshots/screencapture-localhost-8501-2023-11-30-13_03_40.png?raw=true)
