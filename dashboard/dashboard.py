@@ -2,12 +2,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+from pathlib import Path
 
 # Set style seaborn
 sns.set(style='dark')
 
 # Menyiapkan data day_df
-day_df = pd.read_csv("day.csv")
+day_csv = Path(__file__).resolve().parent / 'day.csv'
+day_df = pd.read_csv(day_csv)
 day_df.head()
 
 # Menghapus kolom yang tidak diperlukan
