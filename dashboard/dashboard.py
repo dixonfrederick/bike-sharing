@@ -147,7 +147,7 @@ weather_rent_df = create_weather_rent_df(main_df)
 # Membuat Dashboard secara lengkap
 
 # Membuat judul
-st.header('Bike Sharing Retnal')
+st.header('Bike Sharing Rental')
 
 # Membuat jumlah penyewaan harian
 st.subheader('Daily Rentals')
@@ -300,4 +300,4 @@ axes[2].tick_params(axis='y', labelsize=10)
 plt.tight_layout()
 st.pyplot(fig)
 
-st.caption('Copyright Dixon Frederick 2023')
+st.caption('Copyright © Dixon Frederick 2023')
